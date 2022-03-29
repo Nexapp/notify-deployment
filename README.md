@@ -15,9 +15,9 @@ You can add a CI variable to easily reuse commands.
 ```yml
 .notification:
   before_script:
-    - node ./bin/notify-deployment.js --step start
+    - npx @nexapp/notify-deployment --step start
   after_script:
-    - node ./bin/notify-deployment.js --step finish
+    - npx @nexapp/notify-deployment --step finish
 ```
 
 If there is already a before_script or after_script, you can merge them using references.

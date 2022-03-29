@@ -1,6 +1,7 @@
 {
   "name": "@nexapp/notify-deployment",
   "version": "1.0.0",
+  "private": false,
   "description": "Notify slack for gitlab deployment",
   "main": "src/notify-deployment.js",
   "bin": "src/notify-deployment.js",

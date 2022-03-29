@@ -1,0 +1,29 @@
+{
+  "name": "@nexapp/notify-deployment",
+  "version": "1.0.0",
+  "description": "Notify slack for gitlab deployment",
+  "main": "src/notify-deployment.js",
+  "bin": "src/notify-deployment.js",
+  "homepage": "https://github.com/Nexapp/notify-deployment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nexapp/notify-deployment"
+  },
+  "scripts": {
+    "deploy:start": "src/notify-deployment.js --step start",
+    "deploy:end": "src/notify-deployment.js --step end"
+  },
+  "keywords": [
+    "slack",
+    "gitlab",
+    "deployment",
+    "ci",
+    "notification"
+  ],
+  "author": "Dominique Richard <drichard@nexapp.ca> (https://github.com/drichard-nexapp)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "yargs": "^17.4.0"
+  }
+}
